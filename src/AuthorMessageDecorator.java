@@ -6,6 +6,7 @@ class AuthorMessageDecorator extends MessageDecorator {
     }
 
     public void sent() {
+        super.sent();
         System.out.println("Додано автора повідомлення: " + author);
     }
 

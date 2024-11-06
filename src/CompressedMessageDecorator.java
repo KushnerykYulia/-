@@ -6,6 +6,7 @@ public class CompressedMessageDecorator extends MessageDecorator {
     }
 
     public void sent() {
+        super.sent();
         System.out.println("Застосовано стиснення способом " + compression);
     }
 

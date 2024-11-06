@@ -8,6 +8,7 @@ public class TimestampMessageDecorator extends MessageDecorator{
     }
 
     public void sent() {
+        super.sent();
         System.out.println("Додано час: " + timestamp + ". Додано дату: " + date);
     }
 

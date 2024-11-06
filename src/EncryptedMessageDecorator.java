@@ -6,6 +6,7 @@ public class EncryptedMessageDecorator extends MessageDecorator{
     }
 
     public void sent() {
+        super.sent();
         System.out.println("Змінено шифрування на " + code);
     }
 
